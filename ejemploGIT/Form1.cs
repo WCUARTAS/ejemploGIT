@@ -16,5 +16,11 @@ namespace ejemploGIT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 formulario = new Form2();
+            formulario.Show();
+        }
     }
 }
