@@ -11,6 +11,12 @@ namespace ejemploGIT
         String cedula, nombre;
         int ano_nacimiento, edad;
 
+        public void calcular()
+        {
+            DateTime fecha_actual = DateTime.Now;
+            int year = fecha_actual.Year;
+            edad = year - ano_nacimiento;
+        }
 
         public persona(string nombreAux, string cedula, int edad, int ano_nacimiento)
         {
