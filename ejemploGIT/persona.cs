@@ -8,8 +8,16 @@ namespace ejemploGIT
 {
     class persona
     {
-        String cedula,nombre;
+        String cedula, nombre;
         int ano_nacimiento, edad;
 
+
+        public persona(string nombreAux, string cedula, int edad, int ano_nacimiento)
+        {
+            this.nombre = nombreAux;
+            this.cedula = cedula;
+            this.edad = edad;
+            this.ano_nacimiento = ano_nacimiento;
+        }
     }
 }
