@@ -30,5 +30,9 @@ namespace ejemploGIT
         {
             return nombre;
         }
+        public void getCedula(string cedula)
+        {
+            this.cedula = cedula;
+        }
     }
 }
