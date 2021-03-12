@@ -34,5 +34,10 @@ namespace ejemploGIT
         {
             this.cedula = cedula;
         }
+
+        public int GetEdad()
+        {
+            return edad;
+        }
     }
 }
