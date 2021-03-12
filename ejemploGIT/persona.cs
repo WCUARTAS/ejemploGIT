@@ -25,5 +25,10 @@ namespace ejemploGIT
             this.edad = edad;
             this.ano_nacimiento = ano_nacimiento;
         }
+
+        public string GetNombre()
+        {
+            return nombre;
+        }
     }
 }
