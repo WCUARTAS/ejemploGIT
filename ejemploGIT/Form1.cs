@@ -16,7 +16,7 @@ namespace ejemploGIT
         {
             InitializeComponent();
         }
-
+        persona opersona = new persona("1016834930", "Diego", 2002, 20);
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 formulario = new Form2();
