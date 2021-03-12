@@ -12,6 +12,7 @@ namespace ejemploGIT
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +22,24 @@ namespace ejemploGIT
         {
             Form2 formulario = new Form2();
             formulario.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String opersona = txtNombre.Text;
+            MessageBox.Show("Hola " + opersona);
+            
+
         }
     }
 }
