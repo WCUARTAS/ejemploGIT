@@ -20,9 +20,19 @@ namespace ejemploGIT
         private void btnFormulario1_Click(object sender, EventArgs e)
         {
 
+
             Form1 frm = new Form1();
 
             frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            persona p = new persona("willian","123",0,1992);
+            p.calcular();
+
+
+            MessageBox.Show("EDAD " + p.GetEdad());
         }
     }
 }
