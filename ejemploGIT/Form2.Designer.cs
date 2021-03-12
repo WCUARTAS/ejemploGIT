@@ -31,6 +31,8 @@ namespace ejemploGIT
         {
             this.btnFormulario1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label_Edad = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnFormulario1
@@ -53,16 +55,37 @@ namespace ejemploGIT
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(422, 113);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "EDAD";
+            // 
+            // label_Edad
+            // 
+            this.label_Edad.AutoSize = true;
+            this.label_Edad.Location = new System.Drawing.Point(476, 113);
+            this.label_Edad.Name = "label_Edad";
+            this.label_Edad.Size = new System.Drawing.Size(35, 13);
+            this.label_Edad.TabIndex = 3;
+            this.label_Edad.Text = "label2";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label_Edad);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnFormulario1);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -70,5 +93,7 @@ namespace ejemploGIT
 
         private System.Windows.Forms.Button btnFormulario1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_Edad;
     }
 }

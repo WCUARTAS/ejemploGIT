@@ -15,6 +15,7 @@ namespace ejemploGIT
         public Form2()
         {
             InitializeComponent();
+            label_Edad.Text = "";
         }
 
         private void btnFormulario1_Click(object sender, EventArgs e)
@@ -31,8 +32,8 @@ namespace ejemploGIT
             persona p = new persona("willian","123",0,1992);
             p.calcular();
 
+            label_Edad.Text = ""+ p.GetEdad();
 
-            MessageBox.Show("EDAD " + p.GetEdad());
         }
     }
 }
