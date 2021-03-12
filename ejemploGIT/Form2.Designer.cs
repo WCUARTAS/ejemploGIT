@@ -29,12 +29,33 @@ namespace ejemploGIT
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnFormulario1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnFormulario1
+            // 
+            this.btnFormulario1.Location = new System.Drawing.Point(167, 105);
+            this.btnFormulario1.Name = "btnFormulario1";
+            this.btnFormulario1.Size = new System.Drawing.Size(75, 23);
+            this.btnFormulario1.TabIndex = 0;
+            this.btnFormulario1.Text = "Formulario 1";
+            this.btnFormulario1.UseVisualStyleBackColor = true;
+            this.btnFormulario1.Click += new System.EventHandler(this.btnFormulario1_Click);
+            // 
+            // Form2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnFormulario1);
+            this.Name = "Form2";
             this.Text = "Form2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnFormulario1;
     }
 }
