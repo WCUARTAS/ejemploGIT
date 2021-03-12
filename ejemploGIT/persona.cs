@@ -25,5 +25,9 @@ namespace ejemploGIT
             this.edad = edad;
             this.ano_nacimiento = ano_nacimiento;
         }
+        public void getCedula(string cedula)
+        {
+            this.cedula = cedula;
+        }
     }
 }
